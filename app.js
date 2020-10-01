@@ -141,8 +141,11 @@ app.get("/about", (req, res) => {
   res.render('about');
 })
 
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3000;
+}
 
-
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log("The server is running on port 3000");
 })
