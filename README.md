@@ -4,7 +4,7 @@
 HTML, CSS, VanillaJS
 
 ### Back End
-NodeJS, MongoDB, Mongoose, EJS
+NodeJS, Express, MongoDB, Mongoose, EJS
 
 See this [Application](https://safe-lowlands-53550.herokuapp.com/) live!
 
